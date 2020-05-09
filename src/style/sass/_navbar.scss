@@ -1,0 +1,74 @@
+@import "./Font.scss";
+
+.navbar{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    z-index: 99;
+    
+    align-items: center;
+    nav{
+        width: 1000px;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo{
+            
+            display: flex;
+            .mylogo{
+                       font-family: first;
+                        text-transform: capitalize;
+                        text-decoration: none;
+                        color: rgb(255, 255, 255);
+                        font-size: 20px;
+                        text-shadow: 5px 5px 30px white;
+
+            }
+        }
+        .nav-list{
+        
+            display: flex;
+            ul{
+                display: flex;
+                li{
+                    display: flex;
+                    padding: 15px;
+                
+                    
+                    .mylink{
+                        font-family: first;
+                        text-transform: capitalize;
+                        text-decoration: none;
+                        color: white;
+                        font-size: 20px;
+                        padding: 10px;
+                        position: relative;
+
+
+                        &::after{
+                            content: "";
+                            width: 70%;
+                            background-color:#ffff ;
+                            height: 2px;
+                            display: block;
+                            position: absolute;
+                            transform: scale(0);
+                            transition: .2s all linear;
+
+                        }
+
+
+                        &:hover:after{
+                                transform: scale(1);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+}

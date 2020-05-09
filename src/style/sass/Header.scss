@@ -1,0 +1,45 @@
+@import './../../style/sass/Font.scss';
+.header{
+    background:linear-gradient(to top,rgba(235, 47, 6,.3),rgba(255, 255, 255, 0.1)),url('./../../../src/Background/1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-width: 1700px;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    position: relative;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    align-self: center;
+}
+.container{
+    overflow: hidden;
+}
+
+.saeb{
+    height: 200vh;
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-bottom: 300px;
+    ;
+}
+.header-title{
+    flex-direction: column;
+    display: flex;
+    font-family: pacifico;
+    font-weight: bold;
+    font-size: 80px;
+    color:white;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 30px black;
+}
+
+.saev{
+    height: 600px;
+}

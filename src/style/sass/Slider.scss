@@ -1,0 +1,86 @@
+.slider{
+    width: 900px;
+    height: 200px;
+    margin-top: 300px;
+  
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+   .card{
+    
+  
+
+  .item{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    
+  
+   
+    
+
+    img{
+        width: 280px;
+        height: 170px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .slideinfo{
+        width: 260px;
+        height: 130px;
+        background-color: #dff9fb;
+        padding: 10px;
+        
+        
+        display: flex;
+      
+        align-items: center;
+        flex-direction: column;
+
+        .name{
+            text-transform: capitalize;
+            font-family: first;
+            color: rgba(235, 47, 6,1.0);
+            font-size: 20px;
+        }
+        .descri_header{
+            text-transform: capitalize;
+            padding: 10px;
+            color: #e77f67;
+        }
+        .description{
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 14px;
+            padding: 0 40px;
+            font-family: first;
+        }
+        
+    }
+    .price{
+        display: flex;
+        justify-content: center;
+        background-color: rgba(235, 47, 6,1.0);
+        width: 280px;
+        height: 50px;
+        border-radius: 0 0 10px 10px;
+        align-items: center;
+        h3{
+            font-size: first;
+            text-transform: capitalize;
+            font-family: first;
+            color: white;
+        }
+    }
+    
+   }
+   }
+
+  
+}
+

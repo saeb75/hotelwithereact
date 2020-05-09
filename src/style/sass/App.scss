@@ -1,0 +1,30 @@
+@import './Slider.scss';
+
+@import "./navbar";
+
+@import "./color";
+
+@import "./Header.scss";
+
+@import './roomcontainer.scss';
+
+
+*{
+    padding: 0;
+    margin:0 ;
+}
+
+.saeb{
+    background-color: red;
+
+}
+.slick-arrow{
+    display: none !important;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
